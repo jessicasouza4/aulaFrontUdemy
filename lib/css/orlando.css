@@ -212,7 +212,7 @@ header #logotipo{
 	font-size: 48px;
 	text-align: center;
 	text-transform: uppercase;
-	margin-top: 55px;
+	margin-top: 20px;
 }
 #call-to-action hr{
 	border: #FDE192 solid 4px;
@@ -223,4 +223,27 @@ header #logotipo{
 	margin-top: 60px;
 	margin-bottom: 40px;
 	color: #656565;
+	font-size: 20px;
+	text-align: justify;
 }
+#call-to-action .btn{
+	min-width: 164px;
+    height: 44px;
+    line-height: 34px;
+    border-radius: 0; 
+}
+#call-to-action .btn-roxo{
+    color: #fff;
+    background-color: #5E2799;
+    border-color: #5E2799;
+}
+#call-to-action .btn-amarelo{
+    color: #000;
+    background-color: #FDE192;
+    border-color: #FDE192;
+}
+#call-to-action .row-max-400{
+	margin: 0 auto;
+	max-width: 400px;
+}
+
