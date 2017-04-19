@@ -164,9 +164,24 @@ header #logotipo{
 	font-size: 48px;
 	text-align: center;
 	text-transform: uppercase;
+	margin-top: 55px;
 }
 #news hr{
 	border: #FDE192 solid 2px;
 	width: 200px;
 	margin: 0 auto;
+}
+#news .thumbnails{
+	margin-top: 65px;
+}
+#news .thumbnails h3{
+	color: #5E2799;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+#news .thumbnails time{
+	color: #A7A7A7;
+	font-size: 18px;
+	font-weight: bold;
 }
