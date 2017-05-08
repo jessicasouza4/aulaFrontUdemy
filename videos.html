@@ -196,11 +196,12 @@
   		
   		<script type="text/javascript">
   			$(function(){
-  				$(".thumbnails .owl-theme").on("click", function(){
-   					$("video").attr(
+  				$(".thumbnails .item-inner").on("click", function(){
+   					$("video").attr({
    						"src":"mp4/"+$(this).data('video')+".mp4",
    						"poster":"img/"+$(this).data('video')+".jpg"
-  				});
+  					});
+   				});
   			});
   		</script>
 	</body>
