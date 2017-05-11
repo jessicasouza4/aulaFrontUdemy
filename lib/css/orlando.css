@@ -378,3 +378,8 @@ video{
 	width: 60%;
 	margin-top: 50px;
 }
+
+
+.owl-dot.active {
+	color: #5E2799;
+}
